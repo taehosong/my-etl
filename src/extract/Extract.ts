@@ -1,3 +1,3 @@
 export interface Extract {
-  read(): Promise<any>;
+  extractData(sql: string): Promise<any>;
 }
